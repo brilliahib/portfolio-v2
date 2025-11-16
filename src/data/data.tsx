@@ -9,34 +9,41 @@ import {
 export const awards = [
   {
     id: 1,
+    title: "Finalist Software Development ITC 2025",
+    date: "Sept 2025",
+    slug: "finalist-software-development-itc-2025",
+    certification: "/images/certification/itc.png",
+  },
+  {
+    id: 2,
     title: "Gold Medal World Young Inventors Exhibition (WYIE)",
     date: "May 2025",
     slug: "gold-medal-world-young-inventors-exhibition-wyie",
     certification: "/images/certification/wyie.jpg",
   },
   {
-    id: 2,
+    id: 3,
     title: "Finalist Web Application Competition TECHCOMNFEST 2025",
     date: "Jan 2025",
     slug: "finalist-web-application-competition-techcomnfes-2025",
     certification: "/images/certification/techcomfest.jpg",
   },
   {
-    id: 3,
+    id: 4,
     title: "1st Winner Web Competition CITECH 2024",
     date: "Okt 2024",
     slug: "1st-winner-web-competition-citech-2024",
     certification: "/images/certification/citech.jpg",
   },
   {
-    id: 4,
+    id: 5,
     title: "1st Winner UI/UX Competition NIFC UMRI 2024",
     date: "Mei 2024",
     slug: "1st-winner-ui-ux-competition-nifc-umri-2024",
     certification: "/images/certification/nifc.jpg",
   },
   {
-    id: 5,
+    id: 6,
     title: "2nd Winner Web Competition FESTIDA 2024",
     date: "Jan 2024",
     slug: "2nd-winner-web-competition-festida-2024",
@@ -47,6 +54,24 @@ export const awards = [
 export const experiences = [
   {
     id: "item-1",
+    title: "Lazuardy Tech",
+    imageSrc: "/images/lazuardy.jpg",
+    altText: "Lazuardy Tech",
+    position: "Product Engineer",
+    date: "Nov 2025 - Present",
+    type: "Internship",
+  },
+  {
+    id: "item-2",
+    title: "SEWO App Indonesia",
+    imageSrc: "/images/sewoapp.jpg",
+    altText: "SEWO App Indonesia",
+    position: "Backend Developer",
+    date: "Oct 2025 - Present",
+    type: "Full-time",
+  },
+  {
+    id: "item-3",
     title: "Bangkit Academy",
     imageSrc: "/images/bangkit.png",
     altText: "Bangkit",
@@ -55,7 +80,7 @@ export const experiences = [
     type: "Studi Independent",
   },
   {
-    id: "item-2",
+    id: "item-4",
     title: "ProjectKita",
     imageSrc: "/images/projectkita.png",
     altText: "ProjectKita",
@@ -64,7 +89,7 @@ export const experiences = [
     type: "Freelance",
   },
   {
-    id: "item-3",
+    id: "item-5",
     title: "Google Developer Student Clubs",
     imageSrc: "/images/gdsc.webp",
     altText: "Google Developer Student Clubs",
@@ -73,7 +98,7 @@ export const experiences = [
     type: "Volunteer",
   },
   {
-    id: "item-4",
+    id: "item-6",
     title: "Diskominfo Jawa Tengah",
     imageSrc: "/images/kominfo.png",
     altText: "Diskominfo Jawa Tengah",

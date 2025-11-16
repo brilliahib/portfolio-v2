@@ -23,7 +23,7 @@ export default function HomeExperience() {
                   width={1000}
                   height={1000}
                   alt={experience.altText}
-                  className="max-w-[20px]"
+                  className="max-w-[25px]"
                 />
                 <div>
                   <h3 className="text-sm font-medium">{experience.title}</h3>
@@ -32,11 +32,11 @@ export default function HomeExperience() {
                   </p>
                 </div>
               </div>
-              <div className="hidden flex-col items-end gap-1 md:flex">
+              <div className="flex flex-col items-end gap-1">
                 <p className="text-xs font-medium italic text-muted-foreground">
                   {experience.type}
                 </p>
-                <p className="text-xs font-medium text-muted-foreground">
+                <p className="text-right text-xs font-medium text-muted-foreground">
                   {experience.date}
                 </p>
               </div>
