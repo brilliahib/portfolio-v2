@@ -68,7 +68,7 @@ export const experiences = [
     altText: "SEWO App Indonesia",
     position: "Backend Developer",
     date: "Oct 2025 - Present",
-    type: "Full-time",
+    type: "Part-time",
   },
   {
     id: "item-3",
