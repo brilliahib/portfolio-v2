@@ -61,6 +61,18 @@ export default function HomeAbout() {
       name: "Flask",
       logo: "/images/flask.png",
     },
+    {
+      name: "express",
+      logo: "/images/express.webp",
+    },
+    {
+      name: "NestJS",
+      logo: "/images/nest.webp",
+    },
+    {
+      name: "Websocket",
+      logo: "/images/websocket.webp",
+    },
   ];
   return (
     <>
