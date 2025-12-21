@@ -24,7 +24,7 @@ const jakartaSans = Plus_Jakarta_Sans({
 export const metadata: Metadata = getMetadata({
   title: "Muhammad Ahib Ibrilli | Software Engineer",
   description:
-    "Muhammad Ahib Ibrilli is a Software Engineer based in Semarang, Indonesia. Expert in building modern, scalable, and high-performance websites that help businesses and individuals grow online.",
+    "Software Engineer based in Semarang, Indonesia. Expert in building modern, scalable, and high-performance websites that help businesses and individuals grow online.",
   url: "https://brilliahib.tech",
   image: "https://brilliahib.tech/images/brilly.jpg",
   keywords: [
