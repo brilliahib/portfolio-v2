@@ -16,7 +16,7 @@ export default function Footer() {
                   src="/images/brilly.jpg"
                   width={1000}
                   height={1000}
-                  className="max-w-[50px] rounded-full"
+                  className="h-[60px] w-[60px] rounded-full object-cover"
                   alt="Muhammad Ahib Ibrilli"
                 />
               </div>

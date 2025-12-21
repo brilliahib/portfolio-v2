@@ -17,12 +17,13 @@ interface Props {
 
 function CardListBlogSkeleton() {
   return (
-    <div className="space-y-4">
-      <Skeleton className="h-[250px] w-full rounded-lg" />
-      <Skeleton className="h-6 w-24 rounded-full" />
+    <div className="w-full space-y-4">
+      <Skeleton className="h-[200px] w-full rounded-lg" />
+      <Skeleton className="h-5 w-24 rounded-full" />
       <div className="space-y-2">
-        <Skeleton className="h-6 w-full rounded-md" />
-        <Skeleton className="h-5 w-1/2 rounded-md" />
+        <Skeleton className="h-5 w-full rounded-md" />
+        <Skeleton className="h-5 w-3/4 rounded-md" />
+        <Skeleton className="h-4 w-32 rounded-md" />
       </div>
     </div>
   );
@@ -31,8 +32,8 @@ function CardListBlogSkeleton() {
 export default function CardListBlog({ data, isLoading, all = false }: Props) {
   if (isLoading) {
     return (
-      <div className="space-y-8">
-        {Array.from({ length: all ? 6 : 3 }).map((_, i) => (
+      <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2">
+        {Array.from({ length: all ? 6 : 4 }).map((_, i) => (
           <CardListBlogSkeleton key={i} />
         ))}
       </div>
